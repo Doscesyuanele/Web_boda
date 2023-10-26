@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de boda</title>
+    <link href="boda.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Glass+Antiqua&family=Montserrat:wght@200&family=Waterfall&display=swap" rel="stylesheet">
+<body>
+        <audio autoplay="autoplay" controls="controls">
+            <source src="musica/cancion_boda.ogg">
+            <source src="musica/cancion_boda.mp3"> 
+            <source src="musica/cancion_boda.wav">
+        </audio>
+        <h1 style="font-family:Cormorant Garamond; font-weight:156;font-size:16px; font-style:italic; color:white;">Creemos que vas a disfrutar aún más de la invitación si es con música,<br> pero eres libre de decidir darle al play.</h1>
+    
+    <header>
+        <h1 class="titulo">¡Nos casamos!</h1>
+        <img class="anillos" src="fotos/ANILLOS-ICON3.png" alt="icono anillos"/>
+        <fieldset class="linea">
+            <legend class="fecha">02/11/2024</legend>
+            <h1 class="nombres">Teresa & Mario</h1>
+        </fieldset>
+        <img class="corazon" src="fotos/CORAZON-ICON.png" alt="icono corazon"/>
+    </header>
+    <section class="pedida">
+        <div class="div-pedida">
+            <img src="fotos/pedida_1.jpg">
+            <img src="fotos/pedida_2.jpg">
+            <img src="fotos/pedida_4.jpg">
+        </div>
+    </section>
+    <section >
+        <div class="direccion">
+            <p class="direccion"> Nos gustaría contar contigo en nuestra ceremonia</p>
+            <p class="direccion-2">·  El 2 de noviembre del 2044  ·</p>
+            <p class="direccion">Que celebraremos en la <a class="enlace" href="https://maps.app.goo.gl/D5SybjDCLZyvUxaL8" target="_blank">Finca Las Velas</a>.</p>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12788.445558464195!2d-4.183741!3d36.7438973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd724536dddeed5d%3A0xa31fefb771bff7c!2sFinca%20Las%20Velas!5e0!3m2!1ses!2ses!4v1697736555185!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div class="lineainfo"></div>
+        <form method="post" action="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                <div class="div-padre">
+                    <h1 class="datos-pregunta">Antes de nada necesitamos saber algunas cositas sobre ti:</h1>
+                    <div class="caja-datos">
+                        <div class="datos-rellenar">
+                            <label for="nombre" class="datos-pregunta"> Nombre: </label>
+                            <label for="nombre" class="datos-pregunta"> Apellido:  </label>
+                            <label for="nombre" class="datos-pregunta"> Email:  </label>
+                        </div>
+                        <div class="datos-rellenar" >
+                            <input id="nombre" name="datos" class="textarea-2" type="text" placeholder="Escribe aquí tu nombre" required>
+                            <input id="nombre" name="datos" class="textarea-2" type="text" placeholder="Escribe aquí tu apellido" required>
+                            <input id="nombre" name="datos" class="textarea-2" type="email" placeholder="Escribe aquí tu correo electrónico" required>
+                        </div>
+                    </div>
+                    <div class="alimentacion-pregunta">
+                        <label style="margin-bottom:15px;margin-top:30px"><strong>¿Hay algún detalle sobre tu alimentación que debamos saber?</strong></label>
+                        <label for="alergia"><input id="alergia" type="radio" name="alimentacion" class="inline" /> Tengo alguna alergia</label>
+                        <label for="intolerancia"><input id="intolerancia" type="radio" name="alimentacion" class="inline" /> Tengo alguna intolerancia</label>
+                        <label for="vegetariano"><input id="vegetariano" type="radio" name="alimentacion" class="inline" /> Soy vegetariano/a</label>
+                        <label for="vegano"><input id="vegano" type="radio" name="alimentacion" class="inline" /> Soy vegano/a</label>
+                        <label for="todo"><input id="todo" type="radio" name="alimentacion" class="inline" /> Como de todo</label>
+                        <label for="otros"><input style="margin-bottom:40px" id="otros" type="radio" name="alimentacion" class="inline" Checked /> Otros</label>
+                    <div class="textarea-titulo">
+                        <label for="comentarios"><strong>Puedes escribirnos aquí cualquier detalle importante:</strong></label><br>
+                        <textarea style="margin-bottom:30px" class="textarea" id="comentarios" rows="4" cols="40" name="comentarios" placeholder="Escribe tus dudas..."></textarea>
+                        <input class="boton" type="Confirmar" value="Confirmar asistencia"/>
+                    </div>
+                    </div>
+                </div>
+        </form>
+        <div class="lineainfo"></div>
+        <img class="corazon" src="fotos/CORAZON-ICON.png" alt="icono corazon" style="margin-top:200px;"/>
+    </section>       
+    <main class="fondo_clarito">
+        <h1 class="recuerdos">Algunos recuerdos de todos estos años juntos...</h1>
+        <section class="carrusel">
+            <figure>
+                <img src="fotos/1.jpg" alt="Tony y Conchi en navidad"> 
+                <figcaption class="fotos_carrusel"> Abrazos al despertar.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/2.jpg" alt="Tony y Conchi en la cama"> 
+                <figcaption class="fotos_carrusel"> Pintando en compañía.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/3.jpg" alt="Tony y Conchi en año nuevo"> 
+                <figcaption class="fotos_carrusel"> Día de playa.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/4.jpg" alt="Tony y Conchi de bodorrio"> 
+                <figcaption class="fotos_carrusel"> Café juntos.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="fotos/5.jpg" alt="Tony y Conchi tomando vino"> 
+                <figcaption class="fotos_carrusel"> Paz y felicidad.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/6.jpg" alt="Tony y Conchi en Halloween"> 
+                <figcaption class="fotos_carrusel"> Lectura compartida.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/7.jpg" alt="Conchi volviendo a Málaga con Tony"> 
+                <figcaption class="fotos_carrusel"> Otoño contigo.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/8.jpg" alt="Tony y Conchi durmiendo"> 
+                <figcaption class="fotos_carrusel"> Besos en pijama.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/9.jpg" alt="Tony y Conchi celebrando su 3º aniversario"> 
+                <figcaption class="fotos_carrusel"> Atardeceres románticos.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/10.jpg" alt="Tony y Conchi de acampada"> 
+                <figcaption class="fotos_carrusel"> Día en el campo.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/11.jpg" alt="Tony y Conchi haciendo el mongolo"> 
+                <figcaption class="fotos_carrusel"> Felicidad en estado puro.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/12.jpg" alt="Tony y Conchi en campanillas"> 
+                <figcaption class="fotos_carrusel"> Diversión asegurada.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/13.jpg" alt="Lexa recién llegada"> 
+                <figcaption class="fotos_carrusel"> Caricias suaves.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/14.jpg" alt="Foto de familia"> 
+                <figcaption class="fotos_carrusel"> Lo más lejos, a tu lado.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/15.jpg" alt="Tony y Conchi celebrando su 6º aniversario"> 
+                <figcaption class="fotos_carrusel"> Hasta el infinito y más allá.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/16.jpg" alt="Tony y Conchi en Asturias"> 
+                <figcaption class="fotos_carrusel"> Paseando por la orilla.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/17.jpg" alt="Tony y Conchi en Toledo"> 
+                <figcaption class="fotos_carrusel"> Envejecer contigo.</figcaption>
+            </figure>
+            <figure>
+                <img src="fotos/18.jpg" alt="Tony y Conchi la última foto"> 
+                <figcaption class="fotos_carrusel"> ¿Quieres casarte conmigo? </figcaption>
+            </figure>
+        </section>
+    </main>
+    <center><b style="font-size:xxx-large; font-family:'Dancing Script'; font-weight: 100; color:#fff;">¡Falta poquísimo para que llegue el día!</b></center>
+        <div id="countdown">
+            <div class="countdown-item countdown-item-days">
+                <div class="countdown-number"></div>
+                <div class="countdown-item-label">Días</div>
+            </div>
+            <div class="countdown-item countdown-item-hours">
+                <div class="countdown-number"></div>
+                <div class="countdown-item-label">Horas</div>
+            </div>
+            <div class="countdown-item countdown-item-minutes">
+                <div class="countdown-number"></div>
+                <div class="countdown-item-label">Minutos</div>
+            </div>
+            <div class="countdown-item countdown-item-seconds">
+                <div class="countdown-number"></div>
+                <div class="countdown-item-label">Segundos</div>
+            </div>
+        </div>
+        <!-- <script type="text/javascript" src="//acortar.org/gen-js"></script> -->
+        
+        <script>const targetDate=new Date('November 2, 2024 00:00:00').getTime();setInterval(()=>{const now=new Date().getTime();const difference=targetDate-now;const days=Math.floor(difference/(1000*60*60*24));const hours=Math.floor((difference%(1000*60*60*24))/(1000*60*60));const minutes=Math.floor((difference%(1000*60*60))/(1000*60));const seconds=Math.floor((difference%(1000*60))/1000);document.querySelector('.countdown-item-days .countdown-number').textContent=days;document.querySelector('.countdown-item-hours .countdown-number').textContent=hours;document.querySelector('.countdown-item-minutes .countdown-number').textContent=minutes;document.querySelector('.countdown-item-seconds .countdown-number').textContent=seconds},1000);</script>
+        <style>#countdown{display:flex;justify-content:center;align-items:center;font-size:48px;text-align:center;margin-top:20px;color:#fff}.countdown-item{display:inline-block;margin-right:20px;font-size:36px;background-color:rgb(191, 124, 79);border-radius:10px;padding:10px;color:#fff;box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2)}.countdown-item-label{font-size:18px;margin-top:5px;color:#fff}.countdown-item-days .countdown-item-label{display:block}</style>
+        
+    <section class="final">
+        <h1>Contando los días para vernos.</h1>
+        <h1>Esperamos verte allí.</h1>
+        <img class="corazon" src="fotos/CORAZON-ICON.png" alt="icono corazon"/>
+    </section>
+    <section style="font-family: Cormorant Garamond;font-size:15px; display:flex; justify-content: center; margin:20px 40px 40px 40px; color:#fff">
+        <p>© Cynthia Cabero</p>
+    </section>
+
+</body>
+</html>
